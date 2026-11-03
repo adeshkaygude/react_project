@@ -7,7 +7,7 @@ const Clock = ({ color }) => {
     setInterval(() => {
       settime(new Date().toLocaleTimeString());
     }, 1000);
-  }, []);
+  }, []); 
   return (
     <div>
       <h1

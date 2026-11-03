@@ -12,6 +12,7 @@ import ReuseComponent from "./componant/handle_radio_dropdown/ReuseComponent";
 import UserTable from "./componant/handle_radio_dropdown/UserTable";
 import ImagesViwer from "./componant/images_viwer/ImagesViwer";
 import ProductApp from "./componant/lifting-up-product/ProductApp";
+import NestedLoop from "./componant/nested_looping/NestedLoop";
 import ArrayState from "./componant/object_state/ArrayState";
 import ObjectState from "./componant/object_state/ObjectState";
 
@@ -52,7 +53,8 @@ function App() {
       {/* <HandleRadioDropdown /> */}
       {/* <UserTable /> */}
       {/* <ReuseComponent /> */}
-      <ClockApp />
+      {/* <ClockApp /> */}
+      <NestedLoop />
     </div>
   );
 }

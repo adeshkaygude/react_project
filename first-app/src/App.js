@@ -26,6 +26,7 @@ import Product from "./componant/task_form/ProductTask";
 import { TitleSample, Description } from "./componant/timers/FirstComponant";
 import ToggleImage from "./componant/toggle_image/ToggleImage";
 import HandlePropsUsingUseEffect from "./componant/handle__useEffect/HandlePropsUsingUseEffect";
+import ComponentLifeCycle from "./componant/component_lifecycle/ComponentLifeCycle";
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <ClockApp /> */}
       {/* <NestedLoop /> */}
       {/* <UseEffect /> */}
-      <HandlePropsUsingUseEffect />
+      {/* <HandlePropsUsingUseEffect /> */}
+      <ComponentLifeCycle />
     </div>
   );
 }

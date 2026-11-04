@@ -1,21 +1,22 @@
 import { useEffect, useState } from "react";
 
+// Component demonstrating useEffect dependency on local state
 const UseEffect = () => {
   const [count, setcount] = useState(0);
 
-  // Button click function
+  // Button click handler to increment count state
   const updateCount = () => {
     setcount(count + 1);
   };
 
-  // useEffect runs when count changes
+  // useEffect runs on initial render and whenever 'count' state changes
   useEffect(() => {
     functionCall();
   }, [count]);
 
-  // Normal function
+  // Helper function to log current count
   function functionCall() {
-    console.log(count);
+    console.log("Current count:", count);
   }
 
   return (

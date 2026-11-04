@@ -13,7 +13,7 @@ import UserTable from "./componant/handle_radio_dropdown/UserTable";
 import ImagesViwer from "./componant/images_viwer/ImagesViwer";
 import ProductApp from "./componant/lifting-up-product/ProductApp";
 import NestedLoop from "./componant/nested_looping/NestedLoop";
-import UseEffect from "./componant/nested_looping/UseEffect";
+import UseEffect from "./componant/handle__useEffect/UseEffect";
 import ArrayState from "./componant/object_state/ArrayState";
 import ObjectState from "./componant/object_state/ObjectState";
 
@@ -25,6 +25,7 @@ import Title from "./componant/sample/Sample";
 import Product from "./componant/task_form/ProductTask";
 import { TitleSample, Description } from "./componant/timers/FirstComponant";
 import ToggleImage from "./componant/toggle_image/ToggleImage";
+import HandlePropsUsingUseEffect from "./componant/handle__useEffect/HandlePropsUsingUseEffect";
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <ReuseComponent /> */}
       {/* <ClockApp /> */}
       {/* <NestedLoop /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <HandlePropsUsingUseEffect />
     </div>
   );
 }

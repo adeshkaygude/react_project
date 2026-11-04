@@ -2,14 +2,16 @@ import React, { useEffect } from "react";
 
 // Child component receives counter and data through props
 const UseEffectProps = ({ counter, data }) => {
-  // useEffect runs when component mounts and whenever counter prop changes
+  // useEffect runs when component mounts and counter changes
   useEffect(() => {
-    // Function defined inside useEffect to avoid missing dependency warnings
-    function print() {
-      console.log("Counter updated:", counter);
-    }
+    // Call print function whenever counter changes
     print();
   }, [counter]);
+
+  // Function to print updated counter value in console
+  function print() {
+    console.log("Counter updated:", counter);
+  }
 
   return (
     <div>

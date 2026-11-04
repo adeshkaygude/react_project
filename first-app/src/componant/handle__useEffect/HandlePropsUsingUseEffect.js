@@ -1,30 +1,32 @@
 import { useState } from "react";
 import UseEffectProps from "./UseEffectProps";
 
-// Parent component managing state and passing values as props
+// Parent component
 const HandlePropsUsingUseEffect = () => {
-  // State variables for counter and data
-  const [counter, setCounter] = useState(0);
-  const [data, setData] = useState(0);
+  // Create two state variables: counter and data
+  const [counter, setcounter] = useState(0);
+  const [data, setdata] = useState(0);
 
-  // Handler to increment counter state
-  const handleCount = () => {
-    setCounter((prev) => prev + 1);
+  // Function to increase counter by 1
+  const handlecount = () => {
+    setcounter(counter + 1);
   };
 
-  // Handler to increment data state
-  const handleData = () => {
-    setData((prev) => prev + 1);
+  // Function to increase data by 1
+  const handledata = () => {
+    setdata(data + 1);
   };
 
   return (
     <div>
-      {/* Passing counter and data state as props to child component */}
+      {/* Pass counter and data values to child component using props */}
       <UseEffectProps counter={counter} data={data} />
-      <button onClick={handleCount}>count +1</button>
-      <button onClick={handleData} style={{ marginLeft: "10px" }}>
-        data +1
-      </button>
+
+      {/* Call handlecount function when button is clicked */}
+      <button onClick={handlecount}>count +1</button>
+
+      {/* Call handledata function when button is clicked */}
+      <button onClick={handledata}>data +1</button>
     </div>
   );
 };

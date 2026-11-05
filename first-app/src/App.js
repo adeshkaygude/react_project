@@ -28,6 +28,7 @@ import ToggleImage from "./componant/toggle_image/ToggleImage";
 import HandlePropsUsingUseEffect from "./componant/handle__useEffect/HandlePropsUsingUseEffect";
 import ComponentLifeCycle from "./componant/component_lifecycle/ComponentLifeCycle";
 import ExternalCss from "./componant/externalCSS/ExtenalCss";
+import UserProfile_example from "./componant/module_css_pracitce/userProfile_example";
 
 function App() {
   return (
@@ -62,7 +63,9 @@ function App() {
       {/* <UseEffect /> */}
       {/* <HandlePropsUsingUseEffect /> */}
       {/* <ComponentLifeCycle /> */}
-      <ExternalCss />
+      {/* <ExternalCss /> */}
+
+      <UserProfile_example />
     </div>
   );
 }

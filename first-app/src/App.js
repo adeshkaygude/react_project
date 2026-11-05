@@ -27,6 +27,7 @@ import { TitleSample, Description } from "./componant/timers/FirstComponant";
 import ToggleImage from "./componant/toggle_image/ToggleImage";
 import HandlePropsUsingUseEffect from "./componant/handle__useEffect/HandlePropsUsingUseEffect";
 import ComponentLifeCycle from "./componant/component_lifecycle/ComponentLifeCycle";
+import ExternalCss from "./componant/externalCSS/ExtenalCss";
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <NestedLoop /> */}
       {/* <UseEffect /> */}
       {/* <HandlePropsUsingUseEffect /> */}
-      <ComponentLifeCycle />
+      {/* <ComponentLifeCycle /> */}
+      <ExternalCss />
     </div>
   );
 }

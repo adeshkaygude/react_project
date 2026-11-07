@@ -30,6 +30,8 @@ import ComponentLifeCycle from "./componant/component_lifecycle/ComponentLifeCyc
 import ExternalCss from "./componant/externalCSS/ExtenalCss";
 import UserProfile_example from "./componant/module_css_pracitce/userProfile_example";
 import UseRefHook from "./componant/useRef_Hook/UseRefHook";
+import Pass_Function from "./componant/pass_function_componnent/Pass_Function";
+import UncontrolledComponent from "./componant/Uncontrolled_component/UncontrolledComponent";
 
 function App() {
   return (
@@ -67,7 +69,9 @@ function App() {
       {/* <ExternalCss /> */}
 
       {/* <UserProfile_example /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      {/* <Pass_Function /> */}
+      <UncontrolledComponent />
     </div>
   );
 }

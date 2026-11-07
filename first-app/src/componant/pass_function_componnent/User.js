@@ -4,7 +4,7 @@ import React from "react";
 const User = ({ displayname, name, onClick }) => {
   return (
     <div>
-      <h2>{name}</h2>
+      <h2>{name}</h2> 
 
       {/* Calling parent function passing child's name argument */}
       <button onClick={() => displayname(name)}>Display Name</button>

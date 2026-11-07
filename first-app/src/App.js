@@ -32,6 +32,7 @@ import UserProfile_example from "./componant/module_css_pracitce/userProfile_exa
 import UseRefHook from "./componant/useRef_Hook/UseRefHook";
 import Pass_Function from "./componant/pass_function_componnent/Pass_Function";
 import UncontrolledComponent from "./componant/Uncontrolled_component/UncontrolledComponent";
+import ForwardRef from "./ForwardRef/ForwardRef";
 
 function App() {
   return (
@@ -71,7 +72,8 @@ function App() {
       {/* <UserProfile_example /> */}
       {/* <UseRefHook /> */}
       {/* <Pass_Function /> */}
-      <UncontrolledComponent />
+      {/* <UncontrolledComponent /> */}
+      <ForwardRef />
     </div>
   );
 }

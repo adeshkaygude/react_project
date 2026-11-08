@@ -36,6 +36,7 @@ import ForwardRef from "./ForwardRef/ForwardRef";
 import UseFormStatusHook from "./componant/useFormStatusHook/UseFormStatusHook";
 import UseTransitionHook from "./componant/UseTransitionHook/UseTransitionHook";
 import PureComponent from "./componant/PureComponent/PureComponent";
+import DerivedState from "./componant/DerivedState/DerivedState";
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
       {/* <ForwardRef /> */}
       {/* <UseFormStatusHook /> */}
       {/* <UseTransitionHook /> */}
-      <PureComponent />
+      {/* <PureComponent /> */}
+      <DerivedState />
     </div>
   );
 }

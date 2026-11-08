@@ -1,13 +1,14 @@
-import React, { forwardRef } from "react";
+import React from "react";
 
-// forwardRef allows the parent to access the child input element
-const UserRef = forwardRef((props, ref) => {
+// In React 19, 'ref' can be passed directly as a standard prop (props.ref)
+// without needing React.forwardRef()
+const UserRef = (props) => {
   return (
     <div>
-      {/* Attach the forwarded ref to the actual input element */}
-      <input type="text" ref={ref} placeholder="Enter your name" />
+      {/* Attach ref directly received from parent component */}
+      <input type="text" ref={props.ref} placeholder="Enter your name" />
     </div>
   );
-});
+};
 
 export default UserRef;

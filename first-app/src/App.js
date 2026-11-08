@@ -35,6 +35,7 @@ import UncontrolledComponent from "./componant/Uncontrolled_component/Uncontroll
 import ForwardRef from "./ForwardRef/ForwardRef";
 import UseFormStatusHook from "./componant/useFormStatusHook/UseFormStatusHook";
 import UseTransitionHook from "./componant/UseTransitionHook/UseTransitionHook";
+import PureComponent from "./componant/PureComponent/PureComponent";
 
 function App() {
   return (
@@ -77,7 +78,8 @@ function App() {
       {/* <UncontrolledComponent /> */}
       {/* <ForwardRef /> */}
       {/* <UseFormStatusHook /> */}
-      <UseTransitionHook />
+      {/* <UseTransitionHook /> */}
+      <PureComponent />
     </div>
   );
 }

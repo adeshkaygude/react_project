@@ -37,6 +37,7 @@ import UseFormStatusHook from "./componant/useFormStatusHook/UseFormStatusHook";
 import UseTransitionHook from "./componant/UseTransitionHook/UseTransitionHook";
 import PureComponent from "./componant/PureComponent/PureComponent";
 import DerivedState from "./componant/DerivedState/DerivedState";
+import LIftingStateup from "./componant/LiftingStateup/LIftingStateup";
 
 function App() {
   return (
@@ -81,7 +82,8 @@ function App() {
       {/* <UseFormStatusHook /> */}
       {/* <UseTransitionHook /> */}
       {/* <PureComponent /> */}
-      <DerivedState />
+      {/* <DerivedState /> */}
+      <LIftingStateup />
     </div>
   );
 }
